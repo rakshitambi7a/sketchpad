@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchpad</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div id="request">Enter Pixels (PxP)</div>
+            <input id="pixels" type="number" max="99" required></input>
+            <button id="enter" onclick="draw()">Create sketchpad</button>
+            <button id="clear" onclick="clear()">Clear</button>
+        </div>
+        <div class="sketchpad"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
